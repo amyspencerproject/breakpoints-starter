@@ -1,12 +1,25 @@
+#wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+body {
+  background: cornflowerblue;
+}
+
 
 /* ----------- Tablets larger than 768px wide ----------- */
-@media () {
+@media (min-width: 768px) {
 	body {
-    background: red;
+    background: lightcoral;
   }
 }
 
 /* ----------- Monitors larger than 1200px wide ----------- */
-@media () {
+@media (min-width: 1200px) {
+  body {
+    background: lightgreen;
+  }
 
 }
